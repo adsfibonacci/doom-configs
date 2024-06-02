@@ -1,0 +1,21 @@
+which python 
+which python 
+which python 
+exit
+ls .emacs.d/eshell/
+ls .emacs.d/eshell/history 
+cat .emacs.d/eshell/history 
+which python 
+which python 
+exit
+which python 
+exit
+which python 
+which python 
+pip install pygments
+which python 
+which python
+pidof emacs
+exit
+which python 
+exit

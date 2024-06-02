@@ -1,0 +1,36 @@
+#+author: Alexander Speigle
+#+date: \today
+#+latex_class_options: [a4, 12pt]
+#+latex_header: \usepackage{subfiles}
+#+latex_header: \usepackage{subcaption}
+#+latex_header: \usepackage{amsmath}
+#+latex_header: \usepackage{amssymb}
+#+latex_header: \usepackage{amsthm}
+#+latex_header: \usepackage{graphicx}
+#+latex_header: \usepackage{fancyvrb}
+#+latex_header: \usepackage{xparse}
+#+latex_header: \usepackage{parskip}
+#+latex_header: \usepackage{stmaryrd}
+
+#+latex_header: \usepackage{xcolor}
+#+latex_header: \usepackage{minted}
+#+latex_header: \usepackage{verbatim}
+
+#+latex_header: \definecolor{bg}{rgb}{.9,.9,.9}
+#+latex_header: \usepackage[backgroundcolor=bg, skipbelow=10, skipabove=10]{mdframed}
+
+#+latex_header: \usemintedstyle{emacs}
+#+latex_header: \surroundwithmdframed{minted}
+#+latex_header: \surroundwithmdframed{verbatim}
+
+#+latex_header: \usepackage[margin=2cm]{geometry}
+#+latex_header: \usepackage[shortlabels]{enumitem}
+
+#+latex_header: \newcommand{\aaa}{\text{*}}
+#+latex_header: \newcommand{\CC}{\mathbb{C}}
+#+latex_header: \newcommand{\RR}{\mathbb{R}}
+#+latex_header: \newcommand{\QQ}{\mathbb{Q}}
+#+latex_header: \newcommand{\ZZ}{\mathbb{Z}}
+#+latex_header: \newcommand{\NN}{\mathbb{N}}
+#+latex_header: \newcommand{\DD}{\mathbb{D}}
+#+latex_header: \newcommand{\PP}{\mathbb{P}}

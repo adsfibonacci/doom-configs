@@ -1,0 +1,62 @@
+#+title: Test
+#+setupfile: ~/.emacs.d/latex.org
+
+#+property: header-args :eval yes :results output replace :exports both
+
+Suppose this is a valid python 
+#+begin_src python
+alphabet = 8
+print(alphabet)
+#+end_src 
+
+#+RESULTS:
+: 8
+
+#+begin_src python :eval yes :results output replace :number-lines t
+for i in range(1,4):
+    print(i) 
+#+end_src
+
+#+RESULTS:
+: 1
+: 2
+: 3
+
+#+begin_src python 
+a = 5
+print(a)
+print(a + 5)
+def func(a):
+    print(a)
+    return
+func(5)
+#+end_src
+
+#+RESULTS:
+: 5
+: 10
+: 5
+
+#+begin_src latex :exports results
+\[f(x) = \int_0^x t^{2\alpha} + t_0 d\alpha\]
+#+end_src 
+
+#+RESULTS:
+#+begin_export latex
+\[f(x) = x^{2 \alpha}\]
+#+end_export
+
+#+begin_src python 
+print("hello world")
+#+end_src
+
+#+RESULTS:
+: hello world
+
+#+begin_src bash
+pwd
+which python
+#+end_src
+
+#+RESULTS:
+: /home/alexander/.emacs.d

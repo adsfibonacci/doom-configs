@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{alphabet} \PYG{o}{=} \PYG{l+m+mi}{8}
+\PYG{n+nb}{print}\PYG{p}{(}\PYG{n}{alphabet}\PYG{p}{)}
+\end{Verbatim}

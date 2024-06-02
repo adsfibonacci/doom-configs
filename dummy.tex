@@ -1,0 +1,117 @@
+% Created 2024-04-03 Wed 19:23
+% Intended LaTeX compiler: pdflatex
+\documentclass[a4, 12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{longtable}
+\usepackage{wrapfig}
+\usepackage{rotating}
+\usepackage[normalem]{ulem}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{capt-of}
+\usepackage{hyperref}
+\usepackage{minted}
+\usepackage{subfiles}
+\usepackage{subcaption}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{graphicx}
+\usepackage{fancyvrb}
+\usepackage{xparse}
+\usepackage{parskip}
+\usepackage{xcolor}
+\usepackage{minted}
+\usepackage{verbatim}
+\definecolor{bg}{rgb}{.9,.9,.9}
+\usepackage[backgroundcolor=bg, skipbelow=10, skipabove=10]{mdframed}
+\usemintedstyle{emacs}
+\surroundwithmdframed{minted}
+\surroundwithmdframed{verbatim}
+\usepackage[margin=2cm]{geometry}
+\usepackage[shortlabels]{enumitem}
+\newcommand{\aaa}{\text{*}}
+\newcommand{\CC}{\mathbb{C}}
+\newcommand{\RR}{\mathbb{R}}
+\newcommand{\QQ}{\mathbb{Q}}
+\newcommand{\ZZ}{\mathbb{Z}}
+\newcommand{\NN}{\mathbb{N}}
+\newcommand{\DD}{\mathbb{D}}
+\author{Alexander Speigle}
+\date{\today}
+\title{Test}
+\hypersetup{
+ pdfauthor={Alexander Speigle},
+ pdftitle={Test},
+ pdfkeywords={},
+ pdfsubject={},
+ pdfcreator={Emacs 29.3 (Org mode 9.6.15)}, 
+ pdflang={English}}
+\begin{document}
+
+\maketitle
+\tableofcontents
+
+Suppose this is a valid python 
+\begin{minted}[]{python}
+alphabet = 8
+print(alphabet)
+\end{minted}
+
+\begin{verbatim}
+8
+\end{verbatim}
+
+
+\begin{minted}[]{python}
+for i in range(1,4):
+    print(i) 
+\end{minted}
+
+\begin{verbatim}
+1
+2
+3
+\end{verbatim}
+
+
+\begin{minted}[]{python}
+a = 5
+print(a)
+print(a + 5)
+def func(a):
+    print(a)
+    return
+func(5)
+\end{minted}
+
+\begin{verbatim}
+5
+10
+5
+\end{verbatim}
+
+
+\[f(x) = \int_0^x t^{2\alpha} + t_0 d\alpha\]
+
+\begin{minted}[]{python}
+print("hello world")
+\end{minted}
+
+\begin{verbatim}
+hello world
+\end{verbatim}
+
+
+\begin{minted}[]{bash}
+pwd
+which python
+\end{minted}
+
+\begin{verbatim}
+/home/alexander/.emacs.d
+/home/alexander/.virtualenvs/python-venv/bin/python
+\end{verbatim}
+\end{document}
